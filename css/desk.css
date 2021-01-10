@@ -1,0 +1,204 @@
+:root {
+    --x1: 354px;
+    --x2: 300px;
+
+    --x3: 554px;
+    --x4: 500px;
+
+    --x5: 754px;
+    --x6: 700px;
+
+
+    --y1: 100px;
+    --y2: 137px;
+
+    --y3: 217px; /* +117px */
+    --y4: 254px; /* +117px */
+
+    --y5: 334px;
+    --y6: 371px;
+
+    --y7: 451px;
+    --y8: 488px;
+}
+
+.box {
+    width        : 90px;
+    height       : 60px;
+    /* background   : linear-gradient(to bottom, #99ccff, #0059b3); */
+    border: 1px solid #000000;
+    line-height: 60px;
+    transform: rotate(56.31deg);
+    font-size: 40px;
+
+}
+/* A列 */
+.pos_a1 {
+    position: absolute;
+    top: var(--y1);
+    left: var(--x1);
+
+}
+
+.pos_a2 {
+    position: absolute;
+    top: var(--y2);
+    left: var(--x2);
+
+}
+
+.pos_a3 {
+    position: absolute;
+    top: var(--y3);
+    left: var(--x1);
+    
+}
+
+.pos_a4 {
+    position: absolute;
+    top: var(--y4);
+    left: var(--x2);
+
+}
+
+.pos_a5 {
+    position: absolute;
+    top: var(--y5);
+    left: var(--x1);
+
+}
+
+.pos_a6 {
+    position: absolute;
+    top: var(--y6);
+    left: var(--x2);
+
+}
+
+.pos_a7 {
+    position: absolute;
+    top: var(--y7);
+    left: var(--x1);
+
+}
+
+.pos_a8 {
+    position: absolute;
+    top: var(--y8);
+    left: var(--x2);
+
+}
+
+/* B列 */
+.pos_b1 {
+    position: absolute;
+    top: var(--y1);
+    left: var(--x3);
+
+}
+
+.pos_b2 {
+    position: absolute;
+    top: var(--y2);
+    left: var(--x4);
+
+}
+
+.pos_b3 {
+    position: absolute;
+    top: var(--y3);
+    left: var(--x3);
+    
+}
+
+.pos_b4 {
+    position: absolute;
+    top: var(--y4);
+    left: var(--x4);
+
+}
+
+.pos_b5 {
+    position: absolute;
+    top: var(--y5);
+    left: var(--x3);
+
+}
+
+.pos_b6 {
+    position: absolute;
+    top: var(--y6);
+    left: var(--x4);
+
+}
+
+.pos_b7 {
+    position: absolute;
+    top: var(--y7);
+    left: var(--x3);
+
+}
+
+.pos_b8 {
+    position: absolute;
+    top: var(--y8);
+    left: var(--x4);
+
+}
+
+/* C列 */
+.pos_c1 {
+    position: absolute;
+    top: var(--y1);
+    left: var(--x5);
+
+}
+
+.pos_c2 {
+    position: absolute;
+    top: var(--y2);
+    left: var(--x6);
+
+}
+
+.pos_c3 {
+    position: absolute;
+    top: var(--y3);
+    left: var(--x5);
+    
+}
+
+.pos_c4 {
+    position: absolute;
+    top: var(--y4);
+    left: var(--x6);
+
+}
+
+.pos_c5 {
+    position: absolute;
+    top: var(--y5);
+    left: var(--x5);
+
+}
+
+.pos_c6 {
+    position: absolute;
+    top: var(--y6);
+    left: var(--x6);
+
+}
+
+.pos_c7 {
+    position: absolute;
+    top: var(--y7);
+    left: var(--x5);
+
+}
+
+.pos_c8 {
+    position: absolute;
+    top: var(--y8);
+    left: var(--x6);
+
+}

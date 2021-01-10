@@ -1,0 +1,21 @@
+body{
+	padding-top: 0px;
+}
+
+h1{
+	color: blue;
+}
+
+h3{
+	color: blue;
+}
+
+
+.btn-outline-dark{
+	font-size: 1.5vw;
+	width: 100%;
+}
+
+.item{
+	font-weight: bold;
+}
